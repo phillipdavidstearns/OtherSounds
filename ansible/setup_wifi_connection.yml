@@ -45,6 +45,6 @@
 
   - name: Reload and enable connection
     community.general.nmcli:
-      conn_name: "RedLineMain"
+      conn_name: "Clyfford"
       conn_reload: true
       state: up
